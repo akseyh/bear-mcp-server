@@ -5,6 +5,8 @@ This project is a Model Context Protocol (MCP) server that provides access to th
 Bear stores notes on SQLite database. This MCP server runs some SQL commands to access this notes.
 https://bear.app/faq/where-are-bears-notes-located
 
+![Kariyer notu arama örneği](./assets/career-note-search-example.png)
+
 ## Features
 
 - Read notes
