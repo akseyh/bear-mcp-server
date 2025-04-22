@@ -33,6 +33,25 @@ npm run build
 
 Update your claude_desktop_config.json
 
+### Docker
+```json
+{
+    "mcpServers": {
+        "bear": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-v",
+                "/Users/[YOUR_USER_NAME]/Library/Group Containers/9K33E3U3T4.net.shinyfrog.bear/Application Data:/app/db",
+                "-i",
+                "akseyh/bear-mcp-server"
+            ]
+        }
+    }
+}
+```
+
+### NPM
 ```json
 {
   "mcpServers": {

@@ -1,6 +1,8 @@
 import sqlite3 from "sqlite3";
 import path from "path";
 import os from "os";
+import dotenv from 'dotenv'
+dotenv.config()
 
 type Note = {
   ZCREATIONDATE: number;
@@ -14,7 +16,7 @@ type Tag = {
   ZTITLE: string;
 };
 
-const bearDBPath = path.join(
+const bearDBPath = process.env.DB_ROUTE || path.join(
   os.homedir(),
   "Library",
   "Group Containers",
