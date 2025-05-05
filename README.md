@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/akseyh-bear-mcp-server-badge.png)](https://mseep.ai/app/akseyh-bear-mcp-server)
+
 # Bear MCP Server
 
 This project is a Model Context Protocol (MCP) server that provides access to the [Bear Notes](https://bear.app).
