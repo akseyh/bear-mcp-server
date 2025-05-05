@@ -1,5 +1,9 @@
 # Bear MCP Server
 
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/akseyh-bear-mcp-server-badge.png)](https://mseep.ai/app/akseyh-bear-mcp-server)
+
+[![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/4ba4aa63-76ae-41d7-9d41-851d9acf7013)
+
 This project is a Model Context Protocol (MCP) server that provides access to the [Bear Notes](https://bear.app).
 
 Bear stores notes on SQLite database. This MCP server runs some SQL commands to access this notes.
