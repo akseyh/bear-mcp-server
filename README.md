@@ -60,8 +60,10 @@ Update your claude_desktop_config.json
 {
   "mcpServers": {
     "bear": {
-      "command": "node",
-      "args": [".../build/index.js"] // Change it with your path
+      "command": "npx",
+      "args": [
+          "bear-mcp-server"
+      ]
     }
   }
 }
